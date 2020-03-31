@@ -1,4 +1,4 @@
-import java.util.Map;
+package lessons_DB;
 
 public class Main {
 

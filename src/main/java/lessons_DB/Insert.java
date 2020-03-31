@@ -1,3 +1,5 @@
+package lessons_DB;
+
 import java.sql.*;
 
 public class Insert {

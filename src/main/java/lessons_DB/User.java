@@ -1,3 +1,5 @@
+package lessons_DB;
+
 public class User {
 
     private static  String userClass;
