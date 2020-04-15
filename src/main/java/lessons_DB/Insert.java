@@ -13,8 +13,7 @@ public class Insert {
 
         Class.forName("com.mysql.jdbc.Driver");
         Connection connect = DriverManager.getConnection(url, user, pass);
-        PreparedStatement stmt = connect.prepareStatement
-                        ("INSERT INTO users (id, user, pass, login) VALUE (?,?,?,?)");
+        PreparedStatement stmt = connect.prepareStatement("INSERT INTO users (id, user, pass, login) VALUE (?,?,?,?)");
         stmt.setInt(1, id);
         stmt.setString(2, users);
         stmt.setString(3, passw);
